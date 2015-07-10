@@ -6,16 +6,17 @@
 </listeners>
 
 	<test name= "LinkedIn_Home_TC" thread-count="1">
-		<parameters>
-			<parameter name="platform" value="Vista"/>
-			<parameter name="browser" value="chrome" />
-			<parameter name="module" value="LinkedIn_Home_TC" />
-			<parameter name="version" value="" />
-			<parameter name="nodeURL" value=""/>
-			<parameter name="BrowserWidth" value="0"/>
-			<parameter name="BrowserHie" value="0"/>
-			<parameter name="moduleName" value="LinkedIn_Home_TC"/>
-		</parameters>
+				<parameters>
+					<parameter name="platform" value="centos"/>
+					<parameter name="browser" value="firefox" />
+					<parameter name="priority" value="major" />
+					<parameter name="module" value="LinkedIn_Home_TC" />
+					<parameter name="version" value="" />
+					<parameter name="nodeURL" value=""/>
+					<parameter name="BrowserWidth" value="0"/>
+					<parameter name="BrowserHie" value="0"/>
+					<parameter name="moduleName" value="LinkedIn_Home_TC"/>
+				</parameters>
 
 		<classes>
 			<class name="selenium.fonantrix.app.testcases.LinkedInHomePage">
@@ -33,25 +34,27 @@
 		</classes>
 	</test>
 	
-	<test name= "LinkedIn_Home_TC" thread-count="1">
-		<parameters>
-			<parameter name="platform" value="Vista"/>
-			<parameter name="browser" value="chrome" />
-			<parameter name="version" value="" />
-			<parameter name="nodeURL" value=""/>
-			<parameter name="BrowserWidth" value="0"/>
-			<parameter name="BrowserHie" value="0"/>
-			<parameter name="moduleName" value="LinkedIn_Home_TC"/>
-		</parameters>
+	<test name= "LinkedIn_Login_TC" thread-count="1">
+				<parameters>
+					<parameter name="platform" value="centos"/>
+					<parameter name="browser" value="firefox" />
+					<parameter name="priority" value="major" />
+					<parameter name="module" value="LinkedIn_Login_TC" />
+					<parameter name="version" value="" />
+					<parameter name="nodeURL" value=""/>
+					<parameter name="BrowserWidth" value="0"/>
+					<parameter name="BrowserHie" value="0"/>
+					<parameter name="moduleName" value="LinkedIn_Login_TC"/>
+				</parameters>
 
 		<classes>
 			<class name="selenium.fonantrix.app.testcases.LinkedIn_LoginPage">
 				<methods>
 					<include name="LinkedIn_LoginPage_Validate_UIControls"/>
+					<include name="LinkedIn_Login_Click_Forgotpassword_Validate_UIControls"/>
 					<include name="LinkedIn_Validate_Login_functionality"/>
 					<include name="LinkedIn_Validate_Login_InvalidUserName"/>
 					<include name="LinkedIn_Validate_Login_InvalidPassword"/>
-					<include name="LinkedIn_Login_Click_Forgotpassword_Validate_UIControls"/>
 					<include name="LinkedIn_HomePage_Validate_UIControls"/>
 					<include name="LinkedIn_HomePage_Click_ShareanUpdate_Click_ShareButton"/>
 					<include name="LinkedIn_Click_LinkedInLogoImage_Validate_NavigationToHomePage"/>
@@ -63,5 +66,5 @@
 			</class>
 		</classes>
 	</test>
-
+	
 </suite>
