@@ -5,17 +5,17 @@
      <listener class-name="selenium.fonantrix.core.listener.CustomReporter"/> 
 </listeners>
 
-	<test name= "LinkedIn_Home_TC" thread-count="1">
+	<test name= "LinkedIn_CentOS" thread-count="1">
 				<parameters>
 					<parameter name="platform" value="centos"/>
 					<parameter name="browser" value="firefox" />
 					<parameter name="priority" value="major" />
-					<parameter name="module" value="LinkedIn_Home_TC" />
+					<parameter name="module" value="LinkedIn_CentOS_TC" />
 					<parameter name="version" value="" />
 					<parameter name="nodeURL" value=""/>
 					<parameter name="BrowserWidth" value="0"/>
 					<parameter name="BrowserHie" value="0"/>
-					<parameter name="moduleName" value="LinkedIn_Home_TC"/>
+					<parameter name="moduleName" value="LinkedIn_CentOS"/>
 				</parameters>
 
 		<classes>
@@ -34,17 +34,17 @@
 		</classes>
 	</test>
 	
-	<test name= "LinkedIn_Login_TC" thread-count="1">
+	<test name= "LinkedIn_Windows" thread-count="1">
 				<parameters>
 					<parameter name="platform" value="Vista"/>
 					<parameter name="browser" value="firefox" />
 					<parameter name="priority" value="major" />
-					<parameter name="module" value="LinkedIn_Login_TC" />
+					<parameter name="module" value="LinkedIn_Windows_TC" />
 					<parameter name="version" value="" />
 					<parameter name="nodeURL" value="http://192.168.1.23:5555/wd/hub"/>
 					<parameter name="BrowserWidth" value="0"/>
 					<parameter name="BrowserHie" value="0"/>
-					<parameter name="moduleName" value="LinkedIn_Login_TC"/>
+					<parameter name="moduleName" value="LinkedIn_Windows"/>
 				</parameters>
 
 		<classes>
