@@ -74,7 +74,7 @@
 					<parameter name="priority" value="major" />
 					<parameter name="module" value="LinkedIn_Home_TC" />
 					<parameter name="version" value="" />
-					<parameter name="nodeURL" value="http://192.168.1.23:5555/wd/hub"/>
+					<parameter name="nodeURL" value="http://192.168.1.4:5555/wd/hub"/>
 					<parameter name="BrowserWidth" value="0"/>
 					<parameter name="BrowserHie" value="0"/>
 					<parameter name="moduleName" value="LinkedIn_Home_TC"/>
