@@ -36,12 +36,12 @@
 	
 	<test name= "LinkedIn_Login_TC" thread-count="1">
 				<parameters>
-					<parameter name="platform" value="centos"/>
+					<parameter name="platform" value="Vista"/>
 					<parameter name="browser" value="firefox" />
 					<parameter name="priority" value="major" />
 					<parameter name="module" value="LinkedIn_Login_TC" />
 					<parameter name="version" value="" />
-					<parameter name="nodeURL" value=""/>
+					<parameter name="nodeURL" value="http://192.168.1.23:5555/wd/hub"/>
 					<parameter name="BrowserWidth" value="0"/>
 					<parameter name="BrowserHie" value="0"/>
 					<parameter name="moduleName" value="LinkedIn_Login_TC"/>
@@ -62,6 +62,35 @@
 					<include name="Linkedln_Validate_SignOut_Functionality"/>
 					<include name="LinkedIn_AccountnSettings_PrivacynSettings_Click_Manage_Validate_UI"/>		
 					<include name="LinkedIn_Interests_Companies_Click_Create_Validate_WithExisting_EmailAdrress"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+		<test name= "LinkedIn_Home_TC" thread-count="1">
+				<parameters>
+					<parameter name="platform" value="Mac"/>
+					<parameter name="browser" value="chrome" />
+					<parameter name="priority" value="major" />
+					<parameter name="module" value="LinkedIn_Home_TC" />
+					<parameter name="version" value="" />
+					<parameter name="nodeURL" value="http://192.168.1.23:5555/wd/hub"/>
+					<parameter name="BrowserWidth" value="0"/>
+					<parameter name="BrowserHie" value="0"/>
+					<parameter name="moduleName" value="LinkedIn_Home_TC"/>
+				</parameters>
+
+		<classes>
+			<class name="selenium.fonantrix.app.testcases.LinkedInHomePage">
+				<methods>
+					<include name="LinkedIn_HomePage_Click_Profile_Validate_UIControls"/>
+					<include name="LinkedIn_HomePage_Profile_Validate_Dropdown_ListValues"/>
+					<include name="LinkedIn_HomePage_Connections_Validate_Dropdown_ListValues"/> 
+					<include name="LinkedIn_HomePage_Click_Jobs_Validate_UIControls"/>
+					<include name="LinkedIn_HomePage_Click_Advanced_Validate_UIControls"/>
+					<include name="LinkedIn_HomePage_Click_Connections_Add_Conections_Validate_UIControls"/>
+					<include name="LinkedIn_HomePage_Click_Connections_Add_Conections_Click_OutlookSymbol_Validate_UIControls"/>
+					<include name="LinkedIn_HomePage_Click_Connections_Add_Conections_Click_YahooMail_Symbol_Validate_UIControls"/>
 				</methods>
 			</class>
 		</classes>
