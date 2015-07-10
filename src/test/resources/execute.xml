@@ -23,12 +23,12 @@
 				<methods>
 					<include name="LinkedIn_HomePage_Click_Profile_Validate_UIControls"/>
 					<include name="LinkedIn_HomePage_Profile_Validate_Dropdown_ListValues"/>
-					<include name="LinkedIn_HomePage_Connections_Validate_Dropdown_ListValues"/> 
+<!--					<include name="LinkedIn_HomePage_Connections_Validate_Dropdown_ListValues"/> 
 					<include name="LinkedIn_HomePage_Click_Jobs_Validate_UIControls"/>
 					<include name="LinkedIn_HomePage_Click_Advanced_Validate_UIControls"/>
 					<include name="LinkedIn_HomePage_Click_Connections_Add_Conections_Validate_UIControls"/>
 					<include name="LinkedIn_HomePage_Click_Connections_Add_Conections_Click_OutlookSymbol_Validate_UIControls"/>
-					<include name="LinkedIn_HomePage_Click_Connections_Add_Conections_Click_YahooMail_Symbol_Validate_UIControls"/>
+					<include name="LinkedIn_HomePage_Click_Connections_Add_Conections_Click_YahooMail_Symbol_Validate_UIControls"/>-->
 				</methods>
 			</class>
 		</classes>
@@ -52,7 +52,7 @@
 				<methods>
 					<include name="LinkedIn_LoginPage_Validate_UIControls"/>
 					<include name="LinkedIn_Login_Click_Forgotpassword_Validate_UIControls"/>
-					<include name="LinkedIn_Validate_Login_functionality"/>
+<!--					<include name="LinkedIn_Validate_Login_functionality"/>
 					<include name="LinkedIn_Validate_Login_InvalidUserName"/>
 					<include name="LinkedIn_Validate_Login_InvalidPassword"/>
 					<include name="LinkedIn_HomePage_Validate_UIControls"/>
@@ -61,7 +61,7 @@
 					<include name="Linkedln_Interests_Groups_Validate_CreateGroup"/>
 					<include name="Linkedln_Validate_SignOut_Functionality"/>
 					<include name="LinkedIn_AccountnSettings_PrivacynSettings_Click_Manage_Validate_UI"/>		
-					<include name="LinkedIn_Interests_Companies_Click_Create_Validate_WithExisting_EmailAdrress"/>
+					<include name="LinkedIn_Interests_Companies_Click_Create_Validate_WithExisting_EmailAdrress"/>-->
 				</methods>
 			</class>
 		</classes>
@@ -85,12 +85,12 @@
 				<methods>
 					<include name="LinkedIn_HomePage_Click_Profile_Validate_UIControls"/>
 					<include name="LinkedIn_HomePage_Profile_Validate_Dropdown_ListValues"/>
-					<include name="LinkedIn_HomePage_Connections_Validate_Dropdown_ListValues"/> 
+<!--					<include name="LinkedIn_HomePage_Connections_Validate_Dropdown_ListValues"/> 
 					<include name="LinkedIn_HomePage_Click_Jobs_Validate_UIControls"/>
 					<include name="LinkedIn_HomePage_Click_Advanced_Validate_UIControls"/>
 					<include name="LinkedIn_HomePage_Click_Connections_Add_Conections_Validate_UIControls"/>
 					<include name="LinkedIn_HomePage_Click_Connections_Add_Conections_Click_OutlookSymbol_Validate_UIControls"/>
-					<include name="LinkedIn_HomePage_Click_Connections_Add_Conections_Click_YahooMail_Symbol_Validate_UIControls"/>
+					<include name="LinkedIn_HomePage_Click_Connections_Add_Conections_Click_YahooMail_Symbol_Validate_UIControls"/>-->
 				</methods>
 			</class>
 		</classes>
