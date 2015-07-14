@@ -665,7 +665,7 @@ public class ShimplyByState {
 									
 		}
 		
-		// Test case to validate the UI Controls of page displayed after click on By State
+		//Test case to validate the UI Controls of page displayed after click on By State
 		@Parameters({ "platform","browser","version","nodeURL","moduleName","module","priority" })
 		@Test(description="Smply_19",priority=8)
 		public void Shimply_ClickOn_OTHERSTORESButton_Validate_UIControls(String platform, String browser, String version,String nodeURL,String moduleName,String module,String priority)
