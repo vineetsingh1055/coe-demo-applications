@@ -148,7 +148,7 @@ public class Shimply {
 		if(webUtils.isAlertPresent()==true)
 			webUtils.acceptAlert();
 	
-		//webUtils.AcceptAlert();
+		// webUtils.AcceptAlert();
 		webUtils.assertExist("Shimply", "lnk_UserName", testInfo);
 		webUtils.assertText("Shimply", "lnk_UserName", "▼ "+Constants.SignUpName, testInfo);
 		webUtils.assertExist("Shimply", "lnk_TrackOrder", testInfo);
