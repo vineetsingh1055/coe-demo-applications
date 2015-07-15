@@ -30,7 +30,7 @@ public class LinkedInHomePage {
 	}
 	
 	@Parameters({ "platform","browser","version","nodeURL","moduleName","module","priority" })
-	@Test(description="Lnk_01",priority = 1)
+	@Test(description="Lnk_06",priority = 1)
 	public void LinkedIn_HomePage_Click_Profile_Validate_UIControls(String platform, String browser, String version,String nodeURL,String moduleName,String module,String priority) throws Exception {
 		
 		TestInfo testInfo = new TestInfo();
@@ -61,7 +61,7 @@ public class LinkedInHomePage {
 	}
 	
 	@Parameters({ "platform","browser","version","nodeURL","moduleName","module","priority" })
-	@Test(description="Lnk_02",priority = 2)
+	@Test(description="Lnk_07",priority = 2)
 	public void LinkedIn_HomePage_Profile_Validate_Dropdown_ListValues(String platform, String browser, String version,String nodeURL,String moduleName,String module,String priority) throws Exception {
 		
 		TestInfo testInfo = new TestInfo();
@@ -85,7 +85,7 @@ public class LinkedInHomePage {
 	}	
 	
 	@Parameters({ "platform","browser","version","nodeURL","moduleName","module","priority" })
-	@Test(description="Lnk_03",priority = 3)
+	@Test(description="Lnk_08",priority = 3)
 	public void LinkedIn_HomePage_Connections_Validate_Dropdown_ListValues(String platform, String browser, String version,String nodeURL,String moduleName,String module,String priority) throws Exception {
 		
 		TestInfo testInfo = new TestInfo();
@@ -108,7 +108,7 @@ public class LinkedInHomePage {
 	
 	
 	@Parameters({ "platform","browser","version","nodeURL","moduleName","module","priority" })
-	@Test(description="Lnk_04",priority = 4)
+	@Test(description="Lnk_09",priority = 4)
 	public void LinkedIn_HomePage_Click_Jobs_Validate_UIControls(String platform, String browser, String version,String nodeURL,String moduleName,String module,String priority) throws Exception {
 		
 		TestInfo testInfo = new TestInfo();
@@ -140,7 +140,7 @@ public class LinkedInHomePage {
 	}	
 	
 	@Parameters({ "platform","browser","version","nodeURL","moduleName","module","priority" })
-	@Test(description="Lnk_05",priority = 5)
+	@Test(description="Lnk_10",priority = 5)
 	public void LinkedIn_HomePage_Click_Advanced_Validate_UIControls(String platform, String browser, String version,String nodeURL,String moduleName,String module,String priority) throws Exception {
 		
 		TestInfo testInfo = new TestInfo();
@@ -173,7 +173,7 @@ public class LinkedInHomePage {
 	}	
 	
 	@Parameters({ "platform","browser","version","nodeURL","moduleName","module","priority" })
-	@Test(description="Lnk_06",priority = 6)
+	@Test(description="Lnk_11",priority = 6)
 	public void LinkedIn_HomePage_Click_Connections_Add_Conections_Validate_UIControls(String platform, String browser, String version,String nodeURL,String moduleName,String module,String priority) throws Exception {
 		
 		TestInfo testInfo = new TestInfo();
@@ -206,7 +206,7 @@ public class LinkedInHomePage {
 	}	
 	
 	@Parameters({ "platform","browser","version","nodeURL","moduleName","module","priority" })
-	@Test(description="Lnk_07",priority = 7)
+	@Test(description="Lnk_12",priority = 7)
 	public void LinkedIn_HomePage_Click_Connections_Add_Conections_Click_OutlookSymbol_Validate_UIControls(String platform, String browser, String version,String nodeURL,String moduleName,String module,String priority) throws Exception {
 		
 		TestInfo testInfo = new TestInfo();
@@ -239,7 +239,7 @@ public class LinkedInHomePage {
 	}
 	
 	@Parameters({ "platform","browser","version","nodeURL","moduleName","module","priority"  })
-	@Test(description="Lnk_08",priority = 8)
+	@Test(description="Lnk_13",priority = 8)
 	public void LinkedIn_HomePage_Click_Connections_Add_Conections_Click_YahooMail_Symbol_Validate_UIControls(String platform, String browser, String version,String nodeURL,String moduleName,String module,String priority) throws Exception {
 		
 		TestInfo testInfo = new TestInfo();
