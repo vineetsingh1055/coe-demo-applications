@@ -129,7 +129,7 @@ public class LinkedIn_LoginPage {
 		TestInfo testInfo = new TestInfo();
     	testInfo.setModuleName(moduleName);
     	testInfo.setFlowName("LinkedIn_LoginPage");
-    	testInfo.setTCName("LinkedIn_Validate_Login_functionality");
+    	testInfo.setTCName("LinkedIn_Validate_Login_InvalidUserName");
         testInfo.setPlatform(platform);
         testInfo.setBrowser(browser);
         testInfo.setPriority(priority);
@@ -154,7 +154,7 @@ public class LinkedIn_LoginPage {
 		TestInfo testInfo = new TestInfo();
     	testInfo.setModuleName(moduleName);
     	testInfo.setFlowName("LinkedIn_LoginPage");
-    	testInfo.setTCName("LinkedIn_Validate_Login_functionality");
+    	testInfo.setTCName("LinkedIn_Validate_Login_InvalidPassword");
         testInfo.setPlatform(platform);
         testInfo.setBrowser(browser);
         testInfo.setPriority(priority);
