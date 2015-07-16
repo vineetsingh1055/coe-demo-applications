@@ -25,7 +25,7 @@ public class LinkedInHomePage {
 		webUtils.openBrowser("https://www.linkedin.com/",platform);
 		webUtils.setValue(Constants.LinkedInOR,"txtbox_Email","fntxautomation@gmail.com");
 		webUtils.setValue(Constants.LinkedInOR,"txtbox_Pwd","Pass@321");
-		webUtils.wait(1);
+		webUtils.waitElementVisible(Constants.LinkedInOR,"btn_Signin", 30);
 		webUtils.press(Constants.LinkedInOR,"btn_Signin");
 	}
 	
@@ -45,7 +45,9 @@ public class LinkedInHomePage {
         CustomReporter reporter = new CustomReporter();
         reporter.setTestInfo(testInfo);
     	
-		webUtils.press(Constants.LinkedInOR, "btn_Profile");
+		webUtils.waitElementVisible(Constants.LinkedInOR, "btn_Profile", 30);
+        webUtils.press(Constants.LinkedInOR, "btn_Profile");
+        webUtils.waitElementVisible(Constants.LinkedInOR, "btn_Profile", 30);
 		webUtils.assertExist(Constants.LinkedInOR, "btn_Profile", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "img_Addphoto", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "txt_UserTitle", testInfo);
@@ -76,8 +78,9 @@ public class LinkedInHomePage {
         CustomReporter reporter = new CustomReporter();
         reporter.setTestInfo(testInfo);
     	
-		webUtils.press(Constants.LinkedInOR, "btn_Profile");
-		webUtils.wait(3);
+        webUtils.waitElementVisible(Constants.LinkedInOR, "btn_Profile", 30);
+        webUtils.press(Constants.LinkedInOR, "btn_Profile");
+        webUtils.waitElementVisible(Constants.LinkedInOR, "lst_profile", 30);
 		webUtils.assertListOptionsbyLI(Constants.LinkedInOR, "lst_profile", "Edit Profile",testInfo );
 		webUtils.assertListOptionsbyLI(Constants.LinkedInOR, "lst_profile", "Who's Viewed Your Profile", testInfo);
 		webUtils.assertListOptionsbyLI(Constants.LinkedInOR, "lst_profile", "Your Updates", testInfo);
@@ -100,6 +103,9 @@ public class LinkedInHomePage {
         CustomReporter reporter = new CustomReporter();
         reporter.setTestInfo(testInfo);
     	
+        webUtils.waitElementVisible(Constants.LinkedInOR, "btn_Connection_Dup", 30);
+        webUtils.press(Constants.LinkedInOR, "btn_Connection_Dup");
+        webUtils.waitElementVisible(Constants.LinkedInOR, "lst_connection", 30);
 		webUtils.assertListOptionsbyLI(Constants.LinkedInOR, "lst_connection", "Keep in Touch", testInfo);
 		webUtils.assertListOptionsbyLI(Constants.LinkedInOR, "lst_connection", "Add Connections", testInfo);
 		webUtils.assertListOptionsbyLI(Constants.LinkedInOR, "lst_connection", "Find Alumni", testInfo);
@@ -124,8 +130,9 @@ public class LinkedInHomePage {
         CustomReporter reporter = new CustomReporter();
         reporter.setTestInfo(testInfo);
     	
-		webUtils.press(Constants.LinkedInOR, "lst_jobs");
-		webUtils.wait(5);
+        webUtils.waitElementVisible(Constants.LinkedInOR, "lst_jobs", 30);
+        webUtils.press(Constants.LinkedInOR, "lst_jobs");
+        webUtils.waitElementVisible(Constants.LinkedInOR, "lst_jobs", 30);
 		webUtils.assertExist(Constants.LinkedInOR, "lst_jobs", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "txtbox_jobsearch", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "btn_jobsearch", testInfo);
@@ -156,8 +163,9 @@ public class LinkedInHomePage {
         CustomReporter reporter = new CustomReporter();
         reporter.setTestInfo(testInfo);
     	
+        webUtils.waitElementVisible(Constants.LinkedInOR, "link_home_advance", 30);
 		webUtils.press(Constants.LinkedInOR, "link_home_advance");
-		webUtils.wait(5);
+		webUtils.waitElementVisible(Constants.LinkedInOR, "txt_advancepeoplesearch", 30);
 		webUtils.assertExist(Constants.LinkedInOR, "txt_advancepeoplesearch", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "txtbox_keyword", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "txtbox_firstname", testInfo);
@@ -190,15 +198,16 @@ public class LinkedInHomePage {
     	
     	webUtils.navigateTo("https://www.linkedin.com/home?trk=nav_responsive_tab_home");
     	webUtils.press(Constants.LinkedInOR, "btn_connection");
-		webUtils.wait(3);
+		webUtils.waitElementVisible(Constants.LinkedInOR, "lnk_addconnection", 30);
 		webUtils.press(Constants.LinkedInOR, "lnk_addconnection");
-		webUtils.wait(3);
+		webUtils.waitElementVisible(Constants.LinkedInOR, "txt_seeWho", 30);
 		webUtils.assertExist(Constants.LinkedInOR, "txt_seeWho", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "btn_manageconnection", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "txt_getStartedbyAdding", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "btn_addconContinue", testInfo);
-		webUtils.assertExist(Constants.LinkedInOR, "txtbox_youremail", testInfo);
-		webUtils.assertExist(Constants.LinkedInOR, "img_accountsetting", testInfo);
+		//webUtils.assertExist(Constants.LinkedInOR, "txtbox_youremail", testInfo);
+		webUtils.wait(3);
+		//webUtils.assertExist(Constants.LinkedInOR, "img_accountsetting", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "lnk_msgbox", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "lnk_addconnection", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "btn_businessService", testInfo);
@@ -222,16 +231,18 @@ public class LinkedInHomePage {
         reporter.setTestInfo(testInfo);
     	
     	webUtils.navigateTo("https://www.linkedin.com/home?trk=nav_responsive_tab_home");
+    	webUtils.waitElementVisible(Constants.LinkedInOR, "btn_connection", 30);
        	webUtils.press(Constants.LinkedInOR, "btn_connection");
-    	webUtils.wait(3);
+    	webUtils.waitElementVisible(Constants.LinkedInOR, "lnk_addconnection", 30);
     	webUtils.press(Constants.LinkedInOR, "lnk_addconnection");
-    	webUtils.wait(3);
+    	webUtils.waitElementVisible(Constants.LinkedInOR, "adconnection_image_outlook", 30);
     	webUtils.press(Constants.LinkedInOR, "adconnection_image_outlook");
-		webUtils.wait(3);
+    	webUtils.waitElementVisible(Constants.LinkedInOR, "btn_outlookcontinue", 30);
 		webUtils.assertExist(Constants.LinkedInOR, "btn_outlookcontinue", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "btn_manageconnection", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "txt_seeWho", testInfo);
-		webUtils.assertExist(Constants.LinkedInOR, "img_accountsetting", testInfo);
+		webUtils.wait(3);
+		//webUtils.assertExist(Constants.LinkedInOR, "img_accountsetting", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "lnk_msgbox", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "lnk_addconnection", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "btn_businessService", testInfo);
@@ -255,15 +266,17 @@ public class LinkedInHomePage {
         reporter.setTestInfo(testInfo);
     	
     	webUtils.navigateTo("https://www.linkedin.com/home?trk=nav_responsive_tab_home");
+    	webUtils.waitElementVisible(Constants.LinkedInOR, "btn_connection", 30);
      	webUtils.press(Constants.LinkedInOR, "btn_connection");
-    	webUtils.wait(3);
+     	webUtils.waitElementVisible(Constants.LinkedInOR, "lnk_addconnection", 30);
     	webUtils.press(Constants.LinkedInOR, "lnk_addconnection");
-    	webUtils.wait(3);
+    	webUtils.waitElementVisible(Constants.LinkedInOR, "image_yahoo", 30);
     	webUtils.press(Constants.LinkedInOR, "image_yahoo");
-		webUtils.wait(3);
+    	webUtils.waitElementVisible(Constants.LinkedInOR, "btn_manageconnection", 30);
 		webUtils.assertExist(Constants.LinkedInOR, "btn_manageconnection", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "txt_seeWho", testInfo);
-		webUtils.assertExist(Constants.LinkedInOR, "img_accountsetting", testInfo);
+		webUtils.wait(3);
+		//webUtils.assertExist(Constants.LinkedInOR, "img_accountsetting", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "lnk_msgbox", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "lnk_addconnection", testInfo);
 		webUtils.assertExist(Constants.LinkedInOR, "btn_businessService", testInfo);
@@ -274,7 +287,7 @@ public class LinkedInHomePage {
 	@AfterClass
    	public void Close() throws IOException {
 		webUtils.wait(5);
-   		webUtils.closeBrowser();
+   		//webUtils.quitBrowser();
    	}
 	
 }
