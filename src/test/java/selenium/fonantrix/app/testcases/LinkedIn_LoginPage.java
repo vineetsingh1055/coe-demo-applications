@@ -74,6 +74,7 @@ public class LinkedIn_LoginPage {
         testInfo.setPriority(priority);
         testInfo.setModule(module);
         
+        
         CustomReporter reporter = new CustomReporter();
         reporter.setTestInfo(testInfo);
 		
