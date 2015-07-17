@@ -5,7 +5,7 @@
      <listener class-name="selenium.fonantrix.core.listener.CustomReporter"/> 
 </listeners>
 
-	<test name= "LinkedIn_CentOS" thread-count="1">
+<!-- 	<test name= "LinkedIn_CentOS" thread-count="1">
 				<parameters>
 					<parameter name="platform" value="centos"/>
 					<parameter name="browser" value="firefox" />
@@ -65,6 +65,68 @@
 				</methods>
 			</class>
 		</classes>
+	</test> -->
+	
+	<test name= "SubmitAdd_CentOS" thread-count="1">
+		<parameters>
+			<parameter name="platform" value="centOS"/>
+			<parameter name="browser" value="firefox" />
+			<parameter name="priority" value="major" />
+			<parameter name="module" value="SubmitAdd" />
+			<parameter name="version" value="" />
+			<parameter name="nodeURL" value=""/>
+			<parameter name="BrowserWidth" value="0"/>
+			<parameter name="BrowserHie" value="0"/>
+			<parameter name="moduleName" value="SubmitAdd_CentOS"/>
+		</parameters>
+		
+		<classes>
+			<class name="selenium.fonantrix.app.testcases.OLX_Submit_Add">
+				<methods>
+					<include name="submitAdd_ValidateUI"/> 
+					<include name="submitAdd"/> 
+					<include name="SubmitaFreeAdPageUIControles"/> 
+					<include name="ValidateAdTitlefield"/>
+					<include name="ValidateAdDescriptionfield"/>
+					<include name="ValidateNamefield"/>
+					<include name="Validateemailfield"/>
+					<include name="Validatephonefield"/>
+					<include name="ValidateCityfield"/>
+					<include name="ValidateCategoryfield"/>
+				</methods>
+			</class>
+		</classes>
 	</test>
+	
+	<test name= "Login_Windows" thread-count="1">
+		<parameters>
+			<parameter name="platform" value="windows"/>
+			<parameter name="browser" value="firefox" />
+			<parameter name="priority" value="major" />
+			<parameter name="module" value="Login" />
+			<parameter name="version" value="" />
+			<parameter name="nodeURL" value="http://192.168.1.45:5555/wd/hub/"/>
+			<parameter name="BrowserWidth" value="0"/>
+			<parameter name="BrowserHie" value="0"/>
+			<parameter name="moduleName" value="Login_Windows"/>
+		</parameters>
+
+		<classes>
+			<class name="selenium.fonantrix.app.testcases.OLX_Login">
+				<methods>
+				 <include name="createUser"/>
+				 <include name="newPassword"/> 
+				 <include name="createUser_ValidateUI"/>
+				 <include name="HomePageUIControles"/>
+				 <include name="login_ValidateUI"/>
+				 <include name="Forgot_Password_ValidateUI"/>
+				 <include name="SelectLanguage_login_ValidateUI"/>
+				 <include name="SelectLanguage_Forgot_Password_ValidateUI"/>
+				 <include name="SelectLanguage_submitAdd_ValidateUI"/>
+				 <include name="login"/>  
+				</methods>
+			</class>
+		</classes>
+	</test> 
 	
 </suite>
