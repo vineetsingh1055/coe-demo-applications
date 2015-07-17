@@ -27,7 +27,6 @@ public class OLX_Submit_Add {
 		
 		webUtils.openBrowser("http://www.olx.in",platform);
 		
-		
 		webUtils.wait(5);
 		
 	
