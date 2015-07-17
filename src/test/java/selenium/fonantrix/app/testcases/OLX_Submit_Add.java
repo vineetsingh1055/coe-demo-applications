@@ -52,7 +52,7 @@ public class OLX_Submit_Add {
         webUtils.wait(1);
         webUtils.press("Selenium", "btn_SubmitAdd");
         webUtils.wait(5);
-        webUtils.setValue("Selenium", "txt_AdTitle", "Selenium demo for its enhanced framework");
+        webUtils.setValue("Selenium", "txt_AdTitle", "Selling Blackberry mobile in low price");
         webUtils.press("Selenium", "lstbx_Category");
         webUtils.press("Selenium", "lnk_CategoryType");
         webUtils.press("Selenium", "lnk_Mobile");
@@ -62,10 +62,10 @@ public class OLX_Submit_Add {
         //webUtils.press("Selenium", "lnl_Cat_Close");
         webUtils.wait(2);
         webUtils.setValue("Selenium", "txtbx_Price", "10000");
-        webUtils.setValue("Selenium", "txtbx_Description", "Testing for Demo of Selenium and Enhancement of its Framework");
+        webUtils.setValue("Selenium", "txtbx_Description", "This mobile is very good in feature and have very good look. I am selling it in very low price as i have to buy Iphone6");
         webUtils.setValue("Selenium", "txtbx_Name", "Bahubali");
         webUtils.setValue("Selenium", "txtbx_Phone", "9837121212");
-        webUtils.setValue("Selenium", "txtbx_Ademail", "nim90452@gmail.com");
+        webUtils.setValue("Selenium", "txtbx_Ademail", "nim904523@gmail.com");
         webUtils.setValue("Selenium", "txtbx_City", "Noida");
         webUtils.wait(1);
         webUtils.press("Selenium", "lstbx_CitySuggest");
@@ -145,9 +145,9 @@ public class OLX_Submit_Add {
        // webUtils.press("Selenium", "lnl_Cat_Close");        
         webUtils.wait(1);
         webUtils.setValue("Selenium", "txtbx_Price", "10000");
-        webUtils.setValue("Selenium", "txtbx_Description", "Testing for Demo of Selenium and Enhancement of its Framework");
+        webUtils.setValue("Selenium", "txtbx_Description", "This mobile is very good in feature and have very good look. I am selling it in very low price as i have to buy Iphone6");
         webUtils.setValue("Selenium", "txtbx_Name", "Bahubali");
-        webUtils.setValue("Selenium", "txtbx_Ademail", "nim90452@gmail.com");
+        webUtils.setValue("Selenium", "txtbx_Ademail", "nim904523@gmail.com");
         webUtils.setValue("Selenium", "txtbx_Phone", "9837121212");
         webUtils.setValue("Selenium", "txtbx_City", "Noida");
         webUtils.wait(1);
@@ -181,7 +181,7 @@ public class OLX_Submit_Add {
        // webUtils.openBrowser("http://www.olx.in", platform);
         webUtils.press("Selenium", "btn_SubmitAdd");
         webUtils.wait(2);
-        webUtils.setValue("Selenium", "txt_AdTitle", "Selenium demo for its enhanced framework");
+        webUtils.setValue("Selenium", "txt_AdTitle", "Selling Blackberry mobile in low price");
         webUtils.press("Selenium", "lstbx_Category");
         webUtils.press("Selenium", "lnk_CategoryType");
         webUtils.press("Selenium", "lnk_Mobile");
@@ -192,7 +192,7 @@ public class OLX_Submit_Add {
         webUtils.wait(2);
         webUtils.setValue("Selenium", "txtbx_Price", "10000");
         webUtils.setValue("Selenium", "txtbx_Name", "Bahubali");
-        webUtils.setValue("Selenium", "txtbx_Ademail", "nim90452@gmail.com");
+        webUtils.setValue("Selenium", "txtbx_Ademail", "nim904523@gmail.com");
         webUtils.setValue("Selenium", "txtbx_Phone", "9837121212");
         webUtils.setValue("Selenium", "txtbx_City", "Noida");
         webUtils.wait(1);
@@ -225,7 +225,7 @@ public class OLX_Submit_Add {
        // webUtils.openBrowser("http://www.olx.in", platform);
         webUtils.press("Selenium", "btn_SubmitAdd");
         webUtils.wait(2);
-        webUtils.setValue("Selenium", "txt_AdTitle", "Selenium demo for its enhanced framework");
+        webUtils.setValue("Selenium", "txt_AdTitle", "Selling Blackberry mobile in low price");
         webUtils.press("Selenium", "lstbx_Category");
         webUtils.press("Selenium", "lnk_CategoryType");
         webUtils.press("Selenium", "lnk_Mobile");
@@ -235,9 +235,9 @@ public class OLX_Submit_Add {
        // webUtils.press("Selenium", "lnl_Cat_Close");        
         webUtils.wait(1);
         webUtils.setValue("Selenium", "txtbx_Price", "10000");
-        webUtils.setValue("Selenium", "txtbx_Description", "Testing for Demo of Selenium and Enhancement of its Framework");
+        webUtils.setValue("Selenium", "txtbx_Description", "This mobile is very good in feature and have very good look. I am selling it in very low price as i have to buy Iphone6");
         webUtils.setValue("Selenium", "txtbx_Phone", "9837121212");
-        webUtils.setValue("Selenium", "txtbx_Ademail", "nim90452@gmail.com");
+        webUtils.setValue("Selenium", "txtbx_Ademail", "nim904523@gmail.com");
         webUtils.setValue("Selenium", "txtbx_City", "Noida");
         webUtils.wait(1);
         webUtils.press("Selenium", "lstbx_CitySuggest");
@@ -270,7 +270,7 @@ public class OLX_Submit_Add {
         webUtils.wait(2);
         webUtils.press("Selenium", "btn_SubmitAdd");
         webUtils.wait(2);
-        webUtils.setValue("Selenium", "txt_AdTitle", "Selenium demo for its enhanced framework");
+        webUtils.setValue("Selenium", "txt_AdTitle", "Selling Blackberry mobile in low price");
         webUtils.press("Selenium", "lstbx_Category");
         webUtils.press("Selenium", "lnk_CategoryType");
         webUtils.press("Selenium", "lnk_Mobile");
@@ -280,7 +280,7 @@ public class OLX_Submit_Add {
         //webUtils.press("Selenium", "lnl_Cat_Close");        
         webUtils.wait(2);
         webUtils.setValue("Selenium", "txtbx_Price", "10000");
-        webUtils.setValue("Selenium", "txtbx_Description", "Testing for Demo of Selenium and Enhancement of its Framework");
+        webUtils.setValue("Selenium", "txtbx_Description", "This mobile is very good in feature and have very good look. I am selling it in very low price as i have to buy Iphone6");
         webUtils.setValue("Selenium", "txtbx_Name", "Bahubali");
         webUtils.setValue("Selenium", "txtbx_Phone", "9837121212");
         webUtils.setValue("Selenium", "txtbx_City", "Noida");
@@ -316,7 +316,7 @@ public class OLX_Submit_Add {
        // webUtils.openBrowser("http://www.olx.in", platform);
         webUtils.press("Selenium", "btn_SubmitAdd");
         webUtils.wait(2);
-        webUtils.setValue("Selenium", "txt_AdTitle", "Selenium demo for its enhanced framework");
+        webUtils.setValue("Selenium", "txt_AdTitle", "Selling Blackberry mobile in low price");
         webUtils.press("Selenium", "lstbx_Category");
         webUtils.press("Selenium", "lnk_CategoryType");
         webUtils.press("Selenium", "lnk_Mobile");
@@ -326,9 +326,9 @@ public class OLX_Submit_Add {
         // webUtils.press("Selenium", "lnl_Cat_Close");        
         webUtils.wait(1);
         webUtils.setValue("Selenium", "txtbx_Price", "10000");
-        webUtils.setValue("Selenium", "txtbx_Description", "Testing for Demo of Selenium and Enhancement of its Framework");
+        webUtils.setValue("Selenium", "txtbx_Description", "This mobile is very good in feature and have very good look. I am selling it in very low price as i have to buy Iphone6");
         webUtils.setValue("Selenium", "txtbx_Name", "Bahubali");
-        webUtils.setValue("Selenium", "txtbx_Ademail", "nim90452@gmail.com");
+        webUtils.setValue("Selenium", "txtbx_Ademail", "nim904523@gmail.com");
         webUtils.setValue("Selenium", "txtbx_City", "Noida");
         webUtils.wait(1);
         webUtils.press("Selenium", "lstbx_CitySuggest");
@@ -361,7 +361,7 @@ public class OLX_Submit_Add {
        // webUtils.openBrowser("http://www.olx.in", platform);
         webUtils.press("Selenium", "btn_SubmitAdd");
         webUtils.wait(2);
-        webUtils.setValue("Selenium", "txt_AdTitle", "Selenium demo for its enhanced framework");
+        webUtils.setValue("Selenium", "txt_AdTitle", "Selling Blackberry mobile in low price");
         webUtils.press("Selenium", "lstbx_Category");
         webUtils.press("Selenium", "lnk_CategoryType");
         webUtils.press("Selenium", "lnk_Mobile");
@@ -371,9 +371,9 @@ public class OLX_Submit_Add {
        // webUtils.press("Selenium", "lnl_Cat_Close");        
         webUtils.wait(1);
         webUtils.setValue("Selenium", "txtbx_Price", "10000");
-        webUtils.setValue("Selenium", "txtbx_Description", "Testing for Demo of Selenium and Enhancement of its Framework");
+        webUtils.setValue("Selenium", "txtbx_Description", "This mobile is very good in feature and have very good look. I am selling it in very low price as i have to buy Iphone6");
         webUtils.setValue("Selenium", "txtbx_Name", "Bahubali");
-        webUtils.setValue("Selenium", "txtbx_Ademail", "nim90452@gmail.com");
+        webUtils.setValue("Selenium", "txtbx_Ademail", "nim904523@gmail.com");
         webUtils.setValue("Selenium", "txtbx_Phone", "9837121212");
         webUtils.wait(1);
         webUtils.press("Selenium", "btn_Save");
@@ -402,10 +402,10 @@ public class OLX_Submit_Add {
         
        // webUtils.openBrowser("http://www.olx.in", platform);
         webUtils.press("Selenium", "btn_SubmitAdd");
-        webUtils.setValue("Selenium", "txt_AdTitle", "Selenium demo for its enhanced framework");
-        webUtils.setValue("Selenium", "txtbx_Description", "Testing for Demo of Selenium and Enhancement of its Framework");
+        webUtils.setValue("Selenium", "txt_AdTitle", "Selling Blackberry mobile in low price");
+        webUtils.setValue("Selenium", "txtbx_Description", "This mobile is very good in feature and have very good look. I am selling it in very low price as i have to buy Iphone6");
         webUtils.setValue("Selenium", "txtbx_Name", "Bahubali");
-        webUtils.setValue("Selenium", "txtbx_Ademail", "nim90452@gmail.com");
+        webUtils.setValue("Selenium", "txtbx_Ademail", "nim904523@gmail.com");
         webUtils.setValue("Selenium", "txtbx_Phone", "9837121212");
         webUtils.setValue("Selenium", "txtbx_City", "Noida");
         webUtils.wait(1);
