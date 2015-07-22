@@ -41,7 +41,7 @@
 					<parameter name="priority" value="major" />
 					<parameter name="module" value="LoginPage" />
 					<parameter name="version" value="" />
-					<parameter name="nodeURL" value="http://192.168.1.45:5555/wd/hub"/>
+					<parameter name="nodeURL" value="http://192.168.1.72:5555/wd/hub"/>
 					<parameter name="BrowserWidth" value="0"/>
 					<parameter name="BrowserHie" value="0"/>
 					<parameter name="moduleName" value="LinkedIn_Windows"/>
@@ -105,7 +105,7 @@
 			<parameter name="priority" value="major" />
 			<parameter name="module" value="Login" />
 			<parameter name="version" value="" />
-			<parameter name="nodeURL" value="http://192.168.1.45:5555/wd/hub/"/>
+			<parameter name="nodeURL" value="http://192.168.1.72:5555/wd/hub/"/>
 			<parameter name="BrowserWidth" value="0"/>
 			<parameter name="BrowserHie" value="0"/>
 			<parameter name="moduleName" value="Login_Windows"/>
